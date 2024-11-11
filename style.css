@@ -89,6 +89,27 @@ li a {
   gap: 10px;
 }
 
+.hamburger {
+  display: none;
+  height: fit-content;
+  cursor: pointer;
+  padding: 3px 8px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.hamburger :hover {
+  background: white;
+}
+
+.hamburger div {
+  width: 30px;
+  height: 2px;
+  margin: 6px 0;
+  background: #212526;
+}
+
+
 main {
   display: flex;
   align-items: center;

@@ -1,0 +1,223 @@
+/* @media only screen and (max-width: 1100px) {
+  header {
+    width: 90%;
+    padding: 0 20px;
+  }
+  nav {
+    position: absolute;
+    left: ;
+  }
+} */
+
+@media(max-width: 500px) {
+  header {
+      nav {
+        display: none;
+      }
+  }
+  main img {
+    display: none;
+  }
+  main {
+    width: 100%;
+    align-items: center;
+  }
+  main div {
+    text-align: center;
+  }
+  main div h3 {
+    font-size: 10px;
+  }
+
+  main div h1 {
+    font-size: 25px;
+  }
+  main div .the-first-cloud {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+  }
+  main div p {
+    font-size: 8px;
+    font-weight: 250;
+  }
+
+  .btn1 {
+    font-size: 8px;
+    border-radius: 35px;
+    padding: 10px;
+  }
+  .btn2 {
+    font-size: 8px;
+    border-radius: 35px;
+    padding: 10px;
+  }
+
+  .partners {
+    font-size: 10px;
+  }
+  .trusted {
+    font-size: 10px;
+  }
+  .partners img {
+    width: 10%;
+  }
+  .why {
+    display: block;
+    /* align-items: center; */
+    /* justify-content: center; */
+    justify-self: center;
+  }
+  .why h3 {
+    font-size: 12px;
+  }
+  .why h1 {
+    font-size: 19px;
+  }
+
+  .why h2 {
+    font-size: 10px;
+  }
+
+  .why p {
+    font-size: 10.5px;
+  }
+
+  .partners {
+    align-items: center;
+    display: block;
+    flex-direction: column;
+  }
+  .why .containers {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .main1 {
+    align-items: center;
+    /* margin-left: 230px; */
+  }
+
+  .main-business h2 {
+    font-size: 13px;
+  }
+  .main-business p {
+    font-size: 7px;
+    margin-bottom: 0;
+  }
+  .main-business button {
+    font-size: 7px;
+    padding: 7px;
+  }
+
+  .home-device h4 {
+    font-size: 10px;
+  }
+  .home-device h1 {
+    font-size: 20px;
+  }
+
+  .btn12 {
+    font-size: 8px;
+    border-radius: 35px;
+    padding: 10px;
+  }
+
+  .main1{
+    width: 80%;
+    height: 100%;
+  }
+  .business-owners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .business-owners img {
+    width: 45%;
+  }
+  .home-device {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .home-device img {
+    width: 45%;
+  }
+  .sign-up {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .sign-up-form {
+    width: 45%;
+  }
+  #myForm {
+    width: 160px;
+  }
+
+  .sign-up h5 {
+    font-size: 11px;
+  }
+  .sign-up h1 {
+    font-size: 15px;
+  }
+  .sign-up p {
+    font-size: 10px;
+  }
+
+  .sign-up button {
+    font-size: 12px;
+    padding: 7px;
+    margin-left: 17px;
+  }
+
+
+  /* footer {
+    display: flex;
+    flex-direction: column;
+  } */
+  footer nav {
+    display: none;
+  }
+  #div {
+    display: none;
+  }
+  #div2 {
+    display: flex;
+    align-items: center;
+  }
+  #div2 .ul {
+    display: none;
+  }
+  .copy {
+    text-align: center;
+    /* margin-right: 70px; */
+    width: 100%;
+  }
+  .handles {
+    margin-right: 20px;
+  }
+  div2 {
+    gap: 0px;
+  }
+  footer {
+    width: 100%;
+    font-size: 5px;
+    padding: 3px;
+    background: red;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .line-md--instagram {
+    display: none;
+  }
+}
